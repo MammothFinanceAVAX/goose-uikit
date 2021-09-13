@@ -2188,7 +2188,7 @@ var PanelBody = function (_a) {
                     React.createElement(LinkLabel, { isPushed: isPushed }, entry.label))));
         }),
         React.createElement("a", { href: "https://rugdoc.io/project/mammoth-finance/", target: "_blank" },
-            React.createElement("image", { href: "images/rugdoc.png" }))));
+            React.createElement("image", { href: "/images/rugdoc.png", style: { width: '100%', height: '200px' } }))));
 };
 var templateObject_1$9;
 

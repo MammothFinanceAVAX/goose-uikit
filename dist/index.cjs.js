@@ -2201,7 +2201,7 @@ var PanelBody = function (_a) {
                     React__default['default'].createElement(LinkLabel, { isPushed: isPushed }, entry.label))));
         }),
         React__default['default'].createElement("a", { href: "https://rugdoc.io/project/mammoth-finance/", target: "_blank" },
-            React__default['default'].createElement("image", { href: "images/rugdoc.png" }))));
+            React__default['default'].createElement("image", { href: "/images/rugdoc.png", style: { width: '100%', height: '200px' } }))));
 };
 var templateObject_1$9;
 
