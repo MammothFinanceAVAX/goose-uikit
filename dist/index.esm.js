@@ -2172,6 +2172,7 @@ var PanelBody = function (_a) {
     // Close the menu when a user clicks a link on mobile
     var handleClick = isMobile ? function () { return pushNav(false); } : undefined;
     return (React.createElement(Container$1, null,
+        React.createElement("span", null, " test"),
         links.map(function (entry) {
             var Icon = Icons$1[entry.icon];
             var iconElement = React.createElement(Icon, { width: "24px", mr: "8px" });
@@ -2187,7 +2188,7 @@ var PanelBody = function (_a) {
                     React.createElement(LinkLabel, { isPushed: isPushed }, entry.label))));
         }),
         React.createElement("a", { href: "https://rugdoc.io/project/mammoth-finance/", target: "_blank" },
-            React.createElement("img", { src: "images/rugdoc.png", alt: "rugdoc review" }))));
+            React.createElement("image", { href: "images/rugdoc.png" }))));
 };
 var templateObject_1$9;
 
