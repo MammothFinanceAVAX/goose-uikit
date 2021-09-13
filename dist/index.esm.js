@@ -2187,8 +2187,9 @@ var PanelBody = function (_a) {
                     iconElement,
                     React.createElement(LinkLabel, { isPushed: isPushed }, entry.label))));
         }),
-        React.createElement("a", { href: "https://rugdoc.io/project/mammoth-finance/", target: "_blank" },
-            React.createElement("image", { href: "/images/rugdoc.png", style: { width: '100%', height: '200px' } }))));
+        React.createElement(MenuEntry, null,
+            React.createElement(MenuLink, { href: "https://rugdoc.io/project/mammoth-finance/", target: "_blank" },
+                React.createElement("img", { src: "/images/rugdoc.png", alt: "RugDoc Reviewed" })))));
 };
 var templateObject_1$9;
 

@@ -2200,8 +2200,9 @@ var PanelBody = function (_a) {
                     iconElement,
                     React__default['default'].createElement(LinkLabel, { isPushed: isPushed }, entry.label))));
         }),
-        React__default['default'].createElement("a", { href: "https://rugdoc.io/project/mammoth-finance/", target: "_blank" },
-            React__default['default'].createElement("image", { href: "/images/rugdoc.png", style: { width: '100%', height: '200px' } }))));
+        React__default['default'].createElement(MenuEntry, null,
+            React__default['default'].createElement(MenuLink, { href: "https://rugdoc.io/project/mammoth-finance/", target: "_blank" },
+                React__default['default'].createElement("img", { src: "/images/rugdoc.png", alt: "RugDoc Reviewed" })))));
 };
 var templateObject_1$9;
 
