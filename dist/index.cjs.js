@@ -2086,7 +2086,7 @@ var socials = [
                 href: "https://t.me/mammothfinance",
             },
             {
-                label: "English",
+                label: "Announcements",
                 href: "https://t.me/mammothfinanceannoucements",
             },
         ],
@@ -2185,7 +2185,6 @@ var PanelBody = function (_a) {
     // Close the menu when a user clicks a link on mobile
     var handleClick = isMobile ? function () { return pushNav(false); } : undefined;
     return (React__default['default'].createElement(Container$1, null,
-        React__default['default'].createElement("span", null, " test"),
         links.map(function (entry) {
             var Icon = Icons$1[entry.icon];
             var iconElement = React__default['default'].createElement(Icon, { width: "24px", mr: "8px" });
@@ -2202,7 +2201,7 @@ var PanelBody = function (_a) {
         }),
         React__default['default'].createElement(MenuEntry, null,
             React__default['default'].createElement(MenuLink, { href: "https://rugdoc.io/project/mammoth-finance/", target: "_blank" },
-                React__default['default'].createElement("img", { src: "/images/rugdoc.png", alt: "RugDoc Reviewed" })))));
+                React__default['default'].createElement("img", { src: "/images/rugdoc.png", alt: "RugDoc Reviewed", style: { marginTop: '40px' } })))));
 };
 var templateObject_1$9;
 
